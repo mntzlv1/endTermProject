@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 @Data
 @Entity
 @Table("Buldak")
-public class Bulda extends Ramen {
+public class Buldak extends Ramen {
 
     public Buldak(int id, String name, int price) {
         super(id, name, price);
