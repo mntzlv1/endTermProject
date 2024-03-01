@@ -5,6 +5,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         try {
+            //l
+        }
             Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "1234");
             Statement statement = connection.createStatement();
             String thistable = "CREATE TABLE IF NOT EXISTS Buldak " +
