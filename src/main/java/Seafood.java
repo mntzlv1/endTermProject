@@ -1,2 +1,2 @@
-public class Seafood {
+public class Seafood extends Ramen{
 }
