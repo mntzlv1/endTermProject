@@ -1,2 +1,3 @@
-public class Kimchi {
+
+public class Kimchi extends Ramen{
 }
