@@ -24,13 +24,12 @@ public class Kimchi extends Ramen {
     }
 
     public void add() {
-        // Assuming KimchiRepository is autowired or injected by Spring
+
         KimchiRepository kimchiRepository = /* inject this using Spring */ null;
         kimchiRepository.save(this);
     }
 
     public void update() {
-        // Assuming KimchiRepository is autowired or injected by Spring
         KimchiRepository kimchiRepository = /* inject this using Spring */ null;
         kimchiRepository.save(this);
     }

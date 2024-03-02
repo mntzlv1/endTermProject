@@ -17,13 +17,11 @@ public class Neoguri extends Ramen {
     }
 
     public void add() {
-        // Assuming NeoguriRepository is autowired or injected by Spring
         NeoguriRepository neoguriRepository = /* inject this using Spring */ null;
         neoguriRepository.save(this);
     }
 
     public void update() {
-        // Assuming NeoguriRepository is autowired or injected by Spring
         NeoguriRepository neoguriRepository = /* inject this using Spring */ null;
         neoguriRepository.save(this);
     }

@@ -17,13 +17,11 @@ public class Seafood extends Ramen {
     }
 
     public void add() {
-        // Assuming SeafoodRepository is autowired or injected by Spring
         SeafoodRepository seafoodRepository = /* inject this using Spring */ null;
         seafoodRepository.save(this);
     }
 
     public void update() {
-        // Assuming SeafoodRepository is autowired or injected by Spring
         SeafoodRepository seafoodRepository = /* inject this using Spring */ null;
         seafoodRepository.save(this);
     }
